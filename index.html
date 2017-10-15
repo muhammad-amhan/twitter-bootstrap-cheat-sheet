@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Cheat Sheet</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .jumbotron {
+            padding-top: 4em;
+            margin-bottom: -15px;
+        }
+
+        .row > div {
+            border-left: 1px solid #ccc;
+        }
+    </style>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">Bootstrap Cheat Sheet</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Welcome to Bootstrap Cheat Sheet</h1>
+            <p>Eam adhuc sententiae et. An feugait nostrum disputando pri, te quo vivendum constituam, cum at aperiam perpetua quaerendum. Vel minimum vivendum no, at dicit melius has.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <h1 class="page-header">Hello, world. <small>More text here but using small tags inside h1</small></h1>
+        <p class="lead">Lorem ipsum dolor sit amet, quod solum ius an. Illum voluptatibus mel at, facilisi disputationi usu et. Ea duis nostrud mel, id sea dicta tation pertinax, putent disputando eos no. </p>
+
+        <p><mark>Ad nibh ornatus intellegat eum, pri ei solet iracundia contentiones.</mark> Cum eu bonorum offendit, vim id labitur intellegat maiestatis. An nam propriae antiopam, nam feugiat hendrerit scribentur te. Equidem deleniti an duo. Latine persius sea et.</p>
+
+        <hr>
+
+        <p class="text-left text-lowercase">Text to the left and lowercase</p>
+        <p class="text-center text-uppercase">Text to the center and uppercase</p>
+        <p class="text-right text-capitalize">Text to the right and capitalized</p>
+        <p class="text-justify">Text justified</p>
+        <p class="text-nowrap">Text no wrap</p>
+
+        <hr>
+
+        <div class="pull-right">Text floated to the right</div>
+        <div class="pull left">Text floated to the left</div>
+        <div class="clearfix"></div>
+
+        <hr>
+
+        <blockquote class="blockquote">
+            <p>Movet invidunt gloriatur nec ei, quo dolore lobortis ut, nobis mentitum recusabo est id. </p>
+            <footer>Quote By <cite title="John Smith">John Smith</cite></footer>
+        </blockquote>
+
+        <hr>
+
+        <ul class="list-unstyled">
+            <li><strong>List unstyled</strong></li>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ul>
+
+        <ul class="list-inline">
+            <li><strong>Inline list</strong></li>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ul>
+        
+        <hr>
+
+        <code>&lt;h1&gt; Heading Text&lt;/h1&gt;</code>
+
+        <hr>
+
+        <p class="text-primary">This text using primary class</p>
+        <p class="text-success">This is using success</p>
+        <p class="text-info">This text is using info</p>
+        <p class="text-warning">This text is using warning</p>
+        <p class="text-danger">This text is using danger</p>
+        <p class="text-muted">This text is using muted class which makes it light gray</p>
+
+        <p class="bg-primary">This bg using primary class</p>
+        <p class="bg-success">This is using success</p>
+        <p class="bg-info">This bg is using info</p>
+        <p class="bg-warning">This bg is using warning</p>
+        <p class="bg-danger">This bg is using danger</p>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <button class="btn btn-default">Default using button tag</button>
+        <a class="btn btn-default" href="#" role="button">Default using a link tag</a>
+        <input class="btn btn-default" type="submit" value="Button using input tag">
+
+        <hr>
+
+        <button class="btn btn-primary">Primary button</button>
+        <button class="btn btn-success">Success button</button>
+        <button class="btn btn-info">Info button</button>
+        <button class="btn btn-warning">Warning button</button>
+        <button class="btn btn-danger">Danger button</button>
+        <button class="btn btn-link">Link button</button>
+        
+        <hr>
+
+        <button class="btn btn-default btn-lg">Default large button</button>
+        <button class="btn btn-default">Default regular button</button>
+        <button class="btn btn-default btn-sm">Default small button</button>
+        <button class="btn btn-default btn-xs">Default x-small button</button>
+        <button class="btn btn-default" disabled="disabled">Disabled button</button>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input class="form-control" type="text" placeholder="Name">
+            </div>
+
+             <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" type="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" placeholder="Email"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <select class="form-control">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Upload File</label>
+                <input class="form-control" type="file">
+                <p class="help-blcok">Only png and jpg allowed (this is help-block class)</p>
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="bmw">BMW 
+                </label>
+                <br>
+
+                <label>
+                    <input type="checkbox" value="audi">Audi 
+                </label>
+                <br>
+
+                <label>
+                    <input type="checkbox" value="nissan">Nissan 
+                </label>
+            </div>
+        </form>
+
+        <hr>
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" type="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input class="form-control" type="password" placeholder="password">
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+            </div>
+            <button class="btn btn-success" type="submit">Login</button>   
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <tr>
+                <th>First Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Will</td>
+                <td>Smith</td>
+                <td>30</td>
+            </tr>
+
+            <tr>
+                <td>Jack</td>
+                <td>Joe</td>
+                <td>25</td>
+            </tr>
+
+            <tr class="danger">
+                <td>Steven</td>
+                <td>Cole</td>
+                <td>49</td>
+            </tr>
+
+            <tr>
+                <td>Stephen</td>
+                <td>Williams</td>
+                <td>37</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <p>List using unordered list (list-group)</p>
+        <ul class="list-group">
+            <li class="list-group-item">Item one</li>
+            <li class="list-group-item">Item two</li>
+            <li class="list-group-item">Item three</li>
+            <li class="list-group-item">Item four</li>
+        </ul>
+
+        <p>List using a link (list-group)</p>
+        <div class="list-group">
+            <a href="#" class="list-group-item active">Item one link and active</a>
+            <a href="#" class="list-group-item list-group-item-success">Item two that is green</a>
+            <a href="#" class="list-group-item disabled">Item three that is disabled</a>
+            <a href="#" class="list-group-item">Item four</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+                Panel content
+            </div>
+            <div class="panel-footer">
+                Panel footer
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="well">Hello World. Just a normal div with text and div regular padding style</div>
+        <div class="well well-lg">Hello World. Just a normal div with text and div large padding style</div>
+        <div class="well well-sm">Hello World. Just a normal div with text and div small padding style</div>
+
+
+        <hr>
+
+        <div class="alert alert-success" role="alert">Success alert     message such as, sent!</div>
+        <div class="alert alert-info" role="alert">Info alert such as please visit this link</div>
+        <div class="alert alert-warning" role="alert">This is a warning alert, such as your session is about to end!</div>
+        <div class="alert alert-danger" role="alert">This is danger alert, can be used for example cannot access the directory!</div>
+
+        <hr>
+
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>Warning!</strong> this is a dismissible alert warning message. Notice the <strong>(x)</strong> on the right.
+        </div>
+
+        <hr>
+
+        <div>
+            <p>This is a success progress bar</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 50%;">
+                    50%
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p>This a primary, active and striped progress bar</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-primary progress-bar-striped active" style="width: 70%;">
+                    70%
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        
+        <h3><span class="label label-default">Default, h3, class label in span</span></h3>
+        <span class="label label-primary">Primary, class label in span</span>
+        <span class="label label-success">Success, class label in span</span>
+        <span class="label label-info">Info, class label in span</span>
+        <span class="label label-warning">Warning, class label in span</span>
+        <span class="label label-danger">Danger, class label in span</span>
+
+        <hr>
+        
+        <p>BADGES</p>
+
+        <a href="#">Inbox <span class="badge">42</span></a>
+        <br><br>
+        <button class="btn btn-primary">Messages <span class="badge"> 20</span></button>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <p class="text-uppercase">Grid system in bootstrap</p>
+
+        <div class="row">
+            <div class=" col-md-4">
+                <p>Autem maluisset et, qui te malorum suscipit, eum oratio malorum noluisse ne. Dicit lobortis molestiae sea at, ei veritus scribentur mea, id zril deserunt ius. Malorum prodesset signiferumque ad sea.</p>
+            </div>
+            <div class="col-md-4">
+                <p>Movet invidunt gloriatur nec ei, quo dolore lobortis ut, nobis mentitum recusabo est id. Erat sapientem ne pri, impetus volutpat quo ut, putent timeam laboramus vix an.</p>
+            </div>
+            <div class="col-md-4">
+                <p>Eam adhuc sententiae et. An feugait nostrum disputando pri, te quo vivendum constituam, cum at aperiam perpetua quaerendum. Vel minimum vivendum no, at dicit melius has. Sed cibo detraxit theophrastus an.</p>
+            </div>
+        </div>
+
+        <div style="height: 100px;"></div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
